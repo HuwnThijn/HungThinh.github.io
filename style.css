@@ -194,11 +194,13 @@ nav ul li a:hover {
 }
 
 .skill-bar {
+    width: 100%; /* Đảm bảo thanh kỹ năng có độ rộng đầy đủ */
     height: 10px;
     background-color: #e0e0e0;
     border-radius: 5px;
     margin-top: 15px;
     position: relative;
+    overflow: hidden; /* Đảm bảo phần before nằm trong border-radius */
 }
 
 .skill-bar::before {
@@ -209,8 +211,10 @@ nav ul li a:hover {
     height: 100%;
     background-color: #3498db;
     border-radius: 5px;
+    transition: width 0.5s ease-in-out; /* Hiệu ứng chuyển động mượt mà */
 }
 
+/* Điều chỉnh chiều rộng cho từng kỹ năng */
 .skill-item[data-skill="90"] .skill-bar::before { width: 90%; }
 .skill-item[data-skill="85"] .skill-bar::before { width: 85%; }
 .skill-item[data-skill="80"] .skill-bar::before { width: 80%; }
