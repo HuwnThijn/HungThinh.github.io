@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Cá Nhân | Tên Của Bạn</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Thái Hưng Thịnh</div>
+                <ul>
+                    <li><a href="#home">Trang Chủ</a></li>
+                    <li><a href="#about">Giới Thiệu</a></li>
+                    <li><a href="#skills">Kỹ Năng</a></li>
+                    <li><a href="#projects">Dự Án</a></li>
+                    <li><a href="#contact">Liên Hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <img src="./asset/me.jpg" alt="Ảnh Cá Nhân" class="profile-img">
+                    <h1>Xin Chào, Tôi Là <span class="highlight">Thái Hưng Thịnh</span></h1>
+                    <p class="subtitle">Lập Trình Viên | Nhà Thiết Kế | Chuyên Gia Giải Pháp</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">Về Tôi</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Tôi là một chuyên gia công nghệ đam mê phát triển các giải pháp sáng tạo và hiệu quả. Với kinh nghiệm nhiều năm trong lĩnh vực công nghệ thông tin, tôi luôn không ngừng học hỏi và nâng cao kỹ năng.</p>
+                        <p>Mục tiêu của tôi là tạo ra những sản phẩm công nghệ có ý nghĩa, giải quyết các vấn đề phức tạp và mang lại giá trị cho cộng đồng.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3>3+</h3>
+                            <p>Năm Kinh Nghiệm</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>20+</h3>
+                            <p>Dự Án Hoàn Thành</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>5+</h3>
+                            <p>Chứng Chỉ Chuyên Môn</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Kỹ Năng</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
+                        <div class="skill-bar" data-skill="90"></div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS3</h3>
+                        <div class="skill-bar" data-skill="85"></div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                        <div class="skill-bar" data-skill="80" ></div>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-react"></i>
+                        <h3>React</h3>
+                        <div class="skill-bar" data-skill="75"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Dự Án Nổi Bật</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="./asset/5.png" alt="Dự Án 1">
+                        <div class="project-info">
+                            <h3>Ứng Dụng Quản Lý Công Việc</h3>
+                            <p>Ứng dụng web giúp quản lý và theo dõi công việc hiệu quả.</p>
+                            <div class="project-links">
+                                <a href="#" class="btn">Xem Chi Tiết</a>
+                                <a href="#" class="btn">Mã Nguồn</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./asset/9.png" alt="Dự Án 2">
+                        <div class="project-info">
+                            <h3>Trang Web Thương Mại Điện Tử</h3>
+                            <p>Nền tảng bán hàng trực tuyến với giao diện thân thiện.</p>
+                            <div class="project-links">
+                                <a href="#" class="btn">Xem Chi Tiết</a>
+                                <a href="#" class="btn">Mã Nguồn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Liên Hệ</h2>
+                <form class="contact-form">
+                    <input type="text" name="name" placeholder="Tên của bạn" required>
+                    <input type="email" name="email" placeholder="Địa chỉ email" required>
+                    <textarea name="message" placeholder="Nội dung tin nhắn" required></textarea>
+                    <button type="submit" class="btn btn-primary">Gửi Tin Nhắn</button>
+                </form>
+                <div class="contact-info">
+                    <p>Email: email@example.com</p>
+                    <p>Điện Thoại: +84 123 456 789</p>
+                    <p>Địa Chỉ: Thành phố, Quốc gia</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tên Của Bạn. Tất cả quyền được bảo lưu.</p>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
